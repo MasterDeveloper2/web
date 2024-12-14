@@ -1,0 +1,122 @@
+#button{
+    border-radius: 100%;
+
+}
+
+a{
+    transition: 1s;
+    cursor: pointer;
+}
+
+a:hover{
+   color: green;
+   text-decoration: underline;
+   transform: scale(1.1,1.1);
+}
+
+
+#linker{
+    color: black;
+    font-size: 10vh;
+    transition: 3s;
+
+
+}
+
+
+
+i{
+    transition: 0.5s;
+}
+
+i:hover{
+    transform: scale(1.2,1.2)rotate(-50deg);
+}
+
+.fa-facebook:hover{
+    color: rgb(0, 68, 255);
+}
+
+.fa-whatsapp:hover{
+    color: green;
+}
+
+.fa-google:hover{
+    color: red;
+}
+
+.tertiary{
+    position: fixed;
+}
+.cardparent{
+  height:70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+ justify-content: space-around; 
+
+}
+
+.card{
+    margin-left: 0;
+
+}
+
+
+
+.card-body{
+    text-align: center;
+    transition: 2s;
+    display: none;
+}
+
+.card{
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid black !important ;
+    height: 70vh !important;
+    transition: 1s;
+}
+
+.card:hover{
+    margin-top: -100px;
+
+}
+.card-body:hover{
+    
+}
+
+.card:hover .cardbody{
+    display: block;
+}
+
+.card-img-top{
+    /* margin-left: 30px; */
+}
+
+
+
+
+.card-body{
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
